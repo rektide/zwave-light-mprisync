@@ -1,0 +1,24 @@
+{
+	"name": "zwave-light-mprisync",
+	"version": "1.0.0",
+	"description": "Adjust zwave light levels in sync with mpris volume",
+	"keywords": ["mpris", "zwave", "lighting", "home automation", "remote control", "zwave"],
+	"main": "zwave-mprisync.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rektide/zwave-light-mprisync"
+	},
+	"author": "rektide de la faye",
+	"license": "X",
+	"bugs": {
+		"url": "https://github.com/rektide/zwave-light-mprisync/issues"
+	},
+	"homepage": "https://github.com/rektide/zwave-light-mprisync",
+	"dependencies": {
+		"dbus-promised": "0.0.8",
+		"zwave": "0.0.2"
+	}
+}
